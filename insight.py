@@ -7,8 +7,8 @@ import numpy as np
 from pypfopt import expected_returns
 
 #Imputs
-startDay = dt.datetime(2018,12,31)
-stockList = ['AAPL','TSLA','SPY','GME','BB']
+startDay = dt.datetime(2019,12,28)
+stockList = ['AAPL','GME','TSLA','KO']
 benchList = ['^IXIC'] #This can be changed to suit needs. ONLY 1 STOCK 
 oneYearTBill = 0.01026 
 
